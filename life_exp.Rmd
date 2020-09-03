@@ -14,3 +14,32 @@ knitr::opts_chunk$set(echo = TRUE)
 We reproduce the famous plot from Oeppen and Vauppel (2002).
 
 # Analysis
+
+```{r, message=FALSE}
+library(tidyverse)
+# install.packages("gapminder")
+library(gapminder)
+data("gapminder_unfiltered")
+gapminder_unfiltered
+```
+
+```{r}
+gapminder_unfiltered %>%
+  group_by(year) %>%
+  filter(lifeExp == max(lifeExp)) %>%
+  arrange(year)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
