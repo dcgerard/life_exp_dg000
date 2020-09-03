@@ -31,10 +31,6 @@ gapminder_unfiltered %>%
   arrange(year)
 ```
 
-
-Now I will make a plot
-
-
 # Summary Statistics
 
 Here I will calculate some summary statistics.
