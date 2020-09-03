@@ -40,12 +40,3 @@ gapminder_unfiltered %>%
   group_by(year) %>%
   summarize(ave = mean(lifeExp))
 ```
-
-
-
-
-
-
-
-
-
