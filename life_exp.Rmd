@@ -1,0 +1,16 @@
+---
+title: "Life Expectancy Analysis"
+author: "David Gerard"
+date: "9/3/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Abstract
+
+We reproduce the famous plot from Oeppen and Vauppel (2002).
+
+# Analysis
